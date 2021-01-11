@@ -1,6 +1,6 @@
 # Instructions For Using The Tool
 1. The main file of interest here is torch_eva.py where all the evaluation will be carried out
-2. For ease of usage please put your dataset and the trained model inside the PyTorch-Evaluation-Tool
+2. For ease of usage please put your dataset and the trained model inside the PyTorch-Evaluation-Tool folder
 3. If the above step is not possible due to some reasons make sure to provide appropriate path to dataset and saved model at appropriate places when prompted by the comment section of the code 
 4. There are 2 places in the code where user input is needed i.e. TEST_DATA_PATH and model. Those sections are clearly marked in the comment section of the code
 5. While training your model make sure to save the model using torch.jit.save(), that way you won't need the model architecture while evaluating your code.
