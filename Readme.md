@@ -6,7 +6,7 @@
 5. While training your model make sure to save the model using torch.jit.save(), that way you won't need the model architecture while evaluating your code.
 6. In case you have already saved your model using some other method, space has been provided to provide the user's model architecture
 7. This tool doesn't generate any loss vs epoch graph or accuray vs epoch graph as those details are recorded while training the model and can't be retrieved from saved model.
-8. If everything works fine you should get the following results:
+8. If everything works fine you should get the following results:<br/>
     a) Test accuracy will be printed<br/>
     b) The confusion matrix will be printed<br/>
     c) A plot of the confusion matrix<br/>
